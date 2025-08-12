@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/Yasmin-H/dog"
 )
 
@@ -22,4 +24,8 @@ func BigBarks() string {
 
 func sayHello() string {
 	return "Practising versioning :)"
+}
+
+func from11() string {
+	fmt.Println("I'm from version 1.1.0")
 }
