@@ -1,8 +1,6 @@
 package puppy
 
 import (
-	"fmt"
-
 	"github.com/Yasmin-H/dog"
 )
 
@@ -27,5 +25,5 @@ func sayHello() string {
 }
 
 func from11() string {
-	fmt.Println("I'm from version 1.1.0")
+	return "I'm from version 1.1.0"
 }
