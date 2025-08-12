@@ -20,10 +20,10 @@ func BigBarks() string {
 	return dog.WhenGrownUp(Barks())
 }
 
-func sayHello() string {
+func SayHello() string {
 	return "Practising versioning :)"
 }
 
-func from11() string {
+func From11() string {
 	return "I'm from version 1.1.0"
 }
